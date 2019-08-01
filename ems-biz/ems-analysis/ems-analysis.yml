@@ -46,3 +46,5 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
   jpa:
     database: mysql 
+  log:
+    level: debug
