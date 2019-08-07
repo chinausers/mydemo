@@ -10,8 +10,9 @@ hystrix:
             thread:
               timeoutInMilliseconds: 10000
 feign:
-   client:
-     config:
-       default:
-         connectTimeout: 5000 
-        readTimeout: 10000 
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
