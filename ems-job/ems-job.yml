@@ -42,4 +42,18 @@ elaticjob:
     base-sleep-time-milliseconds: 1000
     max-sleep-time-milliseconds: 3000
     max-retries: 3
-    digest: 
+    digest:
+hystrix:
+    command:
+      default:
+        execution:
+          isolation:
+            thread:
+              timeoutInMilliseconds: 10000
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 15000
+        loggerLevel: basic    
