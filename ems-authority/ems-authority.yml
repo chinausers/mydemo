@@ -8,9 +8,8 @@ spring:
       uri: http://192.168.2.116:7478
   redis:
     database: 0
-    host: 192.168.2.13
-    port: 8812
-    password: Jhf&*d93jfdKJSf
+    host: 127.0.0.1
+    port: 6379
     pool:
       max-active: 400
       max-wait: 10000
