@@ -7,9 +7,10 @@ spring:
       password: neo4j@wankeauto.com
       uri: http://192.168.2.116:7478
   redis:
-    database: 0
-    host: 127.0.0.1
-    port: 6379
+   database: 0
+    host: 192.168.2.13
+    port: 8811
+    password: Jhf&*d93jfdKJSf
     pool:
       max-active: 400
       max-wait: 10000
